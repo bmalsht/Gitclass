@@ -22,3 +22,14 @@ git diff --cached (cache repositry difference)
 > git commit -m "message" [cache -> repository]
 
 > git staus
+
+
+Origine -> https://github.com/bmalsht/Gitclass.git
+
+> git remote add origin https://github.com/bmalsht/Gitclass.git   (add to github)
+
+> git pull origin master (pull from server)
+      			or
+> git pull origin master --rebase
+
+> git push -u origin master (push to server)
