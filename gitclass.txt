@@ -1,0 +1,22 @@
+# Git Workflow
+
+Local - > cache -> repository
+
+git init (empty .git folder create in main folder)
+
+git config --global
+
+
+git config --local
+
+
+git config --user.name "username"
+
+
+git config --user.email "email"
+
+git diff (local and cache difference)
+
+git diff --cached
+
+git add <file.name> (Local to Cache)
