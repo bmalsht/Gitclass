@@ -2,21 +2,23 @@
 
 Local - > cache -> repository
 
-git init (empty .git folder create in main folder)
+> git init (empty .git folder create in main folder)
 
-git config --global
+Git Configuration
 
-
-git config --local
-
-
-git config --user.name "username"
-
-
-git config --user.email "email"
+> git config --global user.name "username"  [for global]
+> git config --local user.name "username"  [for local]
+> git config --global user.email "email"   [for global]
+> git config --local user.email "email"    [for local]
 
 git diff (local and cache difference)
 
-git diff --cached
+git diff --cached (cache repositry difference)
 
-git add <file.name> (Local to Cache)
+> git add <file.name> (Local to Cache)
+
+> git status
+
+> git commit -m "message" [cache -> repository]
+
+> git staus
